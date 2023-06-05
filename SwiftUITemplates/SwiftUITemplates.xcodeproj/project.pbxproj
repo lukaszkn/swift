@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B25C17832A2E65150047970C /* ButtonLabelCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25C17822A2E65150047970C /* ButtonLabelCircle.swift */; };
 		B26F80C52A2149FB00F1201A /* SwiftUITemplatesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26F80C42A2149FB00F1201A /* SwiftUITemplatesApp.swift */; };
 		B26F80C72A2149FB00F1201A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26F80C62A2149FB00F1201A /* ContentView.swift */; };
 		B26F80C92A2149FB00F1201A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B26F80C82A2149FB00F1201A /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B25C17822A2E65150047970C /* ButtonLabelCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLabelCircle.swift; sourceTree = "<group>"; };
 		B26F80C12A2149FB00F1201A /* SwiftUITemplates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITemplates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26F80C42A2149FB00F1201A /* SwiftUITemplatesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITemplatesApp.swift; sourceTree = "<group>"; };
 		B26F80C62A2149FB00F1201A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +46,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B25C17812A2E64FD0047970C /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				B25C17822A2E65150047970C /* ButtonLabelCircle.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
 		B26F80B82A2149FB00F1201A = {
 			isa = PBXGroup;
 			children = (
@@ -63,11 +73,12 @@
 		B26F80C32A2149FB00F1201A /* SwiftUITemplates */ = {
 			isa = PBXGroup;
 			children = (
-				B26F80DD2A21572B00F1201A /* Forms */,
-				B26F80DA2A21561400F1201A /* Buttons */,
+				B25C17812A2E64FD0047970C /* Animations */,
 				B26F80C82A2149FB00F1201A /* Assets.xcassets */,
+				B26F80DA2A21561400F1201A /* Buttons */,
 				B26F80D92A2155D000F1201A /* Charts */,
 				B26F80C62A2149FB00F1201A /* ContentView.swift */,
+				B26F80DD2A21572B00F1201A /* Forms */,
 				B26F80CA2A2149FB00F1201A /* Preview Content */,
 				B26F80D22A214CA000F1201A /* ProgressViews */,
 				B26F80C42A2149FB00F1201A /* SwiftUITemplatesApp.swift */,
@@ -189,6 +200,7 @@
 			files = (
 				B26F80E12A2159B700F1201A /* EntryForm.swift in Sources */,
 				B26F80C72A2149FB00F1201A /* ContentView.swift in Sources */,
+				B25C17832A2E65150047970C /* ButtonLabelCircle.swift in Sources */,
 				B26F80D82A2154D400F1201A /* ActivityIndicator.swift in Sources */,
 				B26F80D42A214CD100F1201A /* ProgressViews.swift in Sources */,
 				B26F80DF2A21577500F1201A /* LoginView1.swift in Sources */,

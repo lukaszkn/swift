@@ -11,6 +11,11 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
+                
+                Section("Animations") {
+                    NavigationLink("Button label circle", destination: ButtonLabelCircle())
+                }
+                
                 Section {
                     NavigationLink("Buttons", destination: Buttons())
                 } header: {
