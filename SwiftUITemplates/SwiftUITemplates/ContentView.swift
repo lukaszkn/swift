@@ -16,25 +16,25 @@ struct ContentView: View {
                     NavigationLink("Button label circle", destination: ButtonLabelCircle())
                 }
                 
-                Section {
+                Section("Buttons") {
                     NavigationLink("Buttons", destination: Buttons())
-                } header: {
-                    Text("Buttons")
                 }
                 
-                Section {
+                Section("Charts") {
                     
-                } header: { Text("Charts") }
+                }
                 
-                Section {
+                Section("Forms") {
                     NavigationLink("LoginView1", destination: LoginView1())
                     NavigationLink("EntryForm", destination: EntryForm())
-                } header: { Text("Forms") }
+                }
                 
-                Section {
+                Section("Progress views") {
                     NavigationLink("ProgressView", destination: ProgressViews())
                     NavigationLink("CustomProgressViews", destination: CustomProgressViews())
-                } header: { Text("Progress views") }
+                    NavigationLink("CircularProgressView", destination: CircularProgressView(progress: 0.75)
+                        .frame(width: 200, height: 200))
+                }
 
                 
 

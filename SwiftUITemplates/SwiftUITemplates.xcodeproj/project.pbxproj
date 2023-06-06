@@ -18,6 +18,7 @@
 		B26F80DC2A21562200F1201A /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26F80DB2A21562200F1201A /* Buttons.swift */; };
 		B26F80DF2A21577500F1201A /* LoginView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26F80DE2A21577500F1201A /* LoginView1.swift */; };
 		B26F80E12A2159B700F1201A /* EntryForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26F80E02A2159B700F1201A /* EntryForm.swift */; };
+		B28764162A2FC2CA0008F83A /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28764152A2FC2CA0008F83A /* CircularProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		B26F80DB2A21562200F1201A /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		B26F80DE2A21577500F1201A /* LoginView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView1.swift; sourceTree = "<group>"; };
 		B26F80E02A2159B700F1201A /* EntryForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryForm.swift; sourceTree = "<group>"; };
+		B28764152A2FC2CA0008F83A /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				B26F80D72A2154D400F1201A /* ActivityIndicator.swift */,
 				B26F80D52A21549A00F1201A /* CustomProgressViews.swift */,
 				B26F80D32A214CD100F1201A /* ProgressViews.swift */,
+				B28764152A2FC2CA0008F83A /* CircularProgressView.swift */,
 			);
 			path = ProgressViews;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				B26F80DF2A21577500F1201A /* LoginView1.swift in Sources */,
 				B26F80DC2A21562200F1201A /* Buttons.swift in Sources */,
 				B26F80D62A21549A00F1201A /* CustomProgressViews.swift in Sources */,
+				B28764162A2FC2CA0008F83A /* CircularProgressView.swift in Sources */,
 				B26F80C52A2149FB00F1201A /* SwiftUITemplatesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
