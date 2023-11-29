@@ -24,3 +24,7 @@ for i in numbersArray {
 for number in stride(from: 0, through: 12, by: 2) {
     print(number)
 }
+
+let formatter = DateFormatter()
+formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
+print(formatter.date(from: "2023-05-24 00:03:30"))
