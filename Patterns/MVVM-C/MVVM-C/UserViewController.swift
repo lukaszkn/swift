@@ -7,7 +7,8 @@
 
 import UIKit
 
-class UserViewController: UIViewController {
+class UserViewController: UIViewController, Storyboardable {
+    
     @IBOutlet weak var emailLabel: UILabel!
     
     var viewModel: UserViewModel!

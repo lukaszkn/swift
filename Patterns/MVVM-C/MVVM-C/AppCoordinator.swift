@@ -16,16 +16,12 @@ class AppCoordinator {
     }
     
     func showUserScreen() {
-        guard let userViewController = UIStoryboard(name: "UserViewController", bundle: .main).instantiateViewController(withIdentifier: "UserViewController") as?  UserViewController else {
-            fatalError("Unable to UserViewController")
-        }
-                
+        let userViewController = UserViewController.instantiate()
         let userViewModel = UserViewModel()
         userViewController.viewModel = userViewModel
         
         userViewModel.fetchUser(id: 3)
         
         navigationController.pushViewController(userViewController, animated: true)
-        
     }
 }
