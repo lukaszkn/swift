@@ -1,0 +1,29 @@
+{
+  "schemaNamespace" : "SpaceX",
+  "input" : {
+    "operationSearchPaths" : [
+      "**/*.graphql"
+    ],
+    "schemaSearchPaths" : [
+      "**/*.graphqls"
+    ]
+  },
+  "output" : {
+    "testMocks" : {
+      "none" : {
+      }
+    },
+    "schemaTypes" : {
+      "path" : "./SpaceX",
+      "moduleType" : {
+        "embeddedInTarget" : {
+          "name" : "ApolloGraphQLPlayground"
+        }
+      }
+    },
+    "operations" : {
+      "inSchemaModule" : {
+      }
+    }
+  }
+}
