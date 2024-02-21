@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2EA9C752B8622E7002250C1 /* ContactsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EA9C742B8622E7002250C1 /* ContactsApp.swift */; };
+		B2EA9C792B8622E8002250C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2EA9C782B8622E8002250C1 /* Assets.xcassets */; };
+		B2EA9C7C2B8622E8002250C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2EA9C7B2B8622E8002250C1 /* Preview Assets.xcassets */; };
+		B2EA9C902B8622E8002250C1 /* ContactsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EA9C8F2B8622E8002250C1 /* ContactsAppUITests.swift */; };
+		B2EA9C922B8622E8002250C1 /* ContactsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EA9C912B8622E8002250C1 /* ContactsAppUITestsLaunchTests.swift */; };
+		B2EA9CA42B86401D002250C1 /* ContactsFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EA9CA32B86401D002250C1 /* ContactsFeature.swift */; };
+		B2EA9CA72B86403F002250C1 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = B2EA9CA62B86403F002250C1 /* ComposableArchitecture */; };
+		B2EA9CA92B865B05002250C1 /* AddContactFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EA9CA82B865B05002250C1 /* AddContactFeature.swift */; };
+		B2EA9CAB2B867B93002250C1 /* ContactDetailFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EA9CAA2B867B93002250C1 /* ContactDetailFeature.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2EA9C822B8622E8002250C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2EA9C692B8622E7002250C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2EA9C702B8622E7002250C1;
+			remoteInfo = ContactsApp;
+		};
+		B2EA9C8C2B8622E8002250C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2EA9C692B8622E7002250C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2EA9C702B8622E7002250C1;
+			remoteInfo = ContactsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2EA9C712B8622E7002250C1 /* ContactsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EA9C742B8622E7002250C1 /* ContactsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsApp.swift; sourceTree = "<group>"; };
+		B2EA9C782B8622E8002250C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2EA9C7B2B8622E8002250C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B2EA9C812B8622E8002250C1 /* ContactsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EA9C852B8622E8002250C1 /* ContactsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsAppTests.swift; sourceTree = "<group>"; };
+		B2EA9C8B2B8622E8002250C1 /* ContactsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EA9C8F2B8622E8002250C1 /* ContactsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsAppUITests.swift; sourceTree = "<group>"; };
+		B2EA9C912B8622E8002250C1 /* ContactsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B2EA9CA32B86401D002250C1 /* ContactsFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsFeature.swift; sourceTree = "<group>"; };
+		B2EA9CA82B865B05002250C1 /* AddContactFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactFeature.swift; sourceTree = "<group>"; };
+		B2EA9CAA2B867B93002250C1 /* ContactDetailFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailFeature.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2EA9C6E2B8622E7002250C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EA9CA72B86403F002250C1 /* ComposableArchitecture in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EA9C7E2B8622E8002250C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EA9C882B8622E8002250C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2EA9C682B8622E7002250C1 = {
+			isa = PBXGroup;
+			children = (
+				B2EA9C732B8622E7002250C1 /* ContactsApp */,
+				B2EA9C842B8622E8002250C1 /* ContactsAppTests */,
+				B2EA9C8E2B8622E8002250C1 /* ContactsAppUITests */,
+				B2EA9C722B8622E7002250C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2EA9C722B8622E7002250C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2EA9C712B8622E7002250C1 /* ContactsApp.app */,
+				B2EA9C812B8622E8002250C1 /* ContactsAppTests.xctest */,
+				B2EA9C8B2B8622E8002250C1 /* ContactsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2EA9C732B8622E7002250C1 /* ContactsApp */ = {
+			isa = PBXGroup;
+			children = (
+				B2EA9CA82B865B05002250C1 /* AddContactFeature.swift */,
+				B2EA9C782B8622E8002250C1 /* Assets.xcassets */,
+				B2EA9CAA2B867B93002250C1 /* ContactDetailFeature.swift */,
+				B2EA9C742B8622E7002250C1 /* ContactsApp.swift */,
+				B2EA9CA32B86401D002250C1 /* ContactsFeature.swift */,
+				B2EA9C7A2B8622E8002250C1 /* Preview Content */,
+			);
+			path = ContactsApp;
+			sourceTree = "<group>";
+		};
+		B2EA9C7A2B8622E8002250C1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B2EA9C7B2B8622E8002250C1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B2EA9C842B8622E8002250C1 /* ContactsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2EA9C852B8622E8002250C1 /* ContactsAppTests.swift */,
+			);
+			path = ContactsAppTests;
+			sourceTree = "<group>";
+		};
+		B2EA9C8E2B8622E8002250C1 /* ContactsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2EA9C8F2B8622E8002250C1 /* ContactsAppUITests.swift */,
+				B2EA9C912B8622E8002250C1 /* ContactsAppUITestsLaunchTests.swift */,
+			);
+			path = ContactsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2EA9C702B8622E7002250C1 /* ContactsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2EA9C952B8622E8002250C1 /* Build configuration list for PBXNativeTarget "ContactsApp" */;
+			buildPhases = (
+				B2EA9C6D2B8622E7002250C1 /* Sources */,
+				B2EA9C6E2B8622E7002250C1 /* Frameworks */,
+				B2EA9C6F2B8622E7002250C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContactsApp;
+			packageProductDependencies = (
+				B2EA9CA62B86403F002250C1 /* ComposableArchitecture */,
+			);
+			productName = ContactsApp;
+			productReference = B2EA9C712B8622E7002250C1 /* ContactsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2EA9C802B8622E8002250C1 /* ContactsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2EA9C982B8622E8002250C1 /* Build configuration list for PBXNativeTarget "ContactsAppTests" */;
+			buildPhases = (
+				B2EA9C7D2B8622E8002250C1 /* Sources */,
+				B2EA9C7E2B8622E8002250C1 /* Frameworks */,
+				B2EA9C7F2B8622E8002250C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2EA9C832B8622E8002250C1 /* PBXTargetDependency */,
+			);
+			name = ContactsAppTests;
+			productName = ContactsAppTests;
+			productReference = B2EA9C812B8622E8002250C1 /* ContactsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2EA9C8A2B8622E8002250C1 /* ContactsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2EA9C9B2B8622E8002250C1 /* Build configuration list for PBXNativeTarget "ContactsAppUITests" */;
+			buildPhases = (
+				B2EA9C872B8622E8002250C1 /* Sources */,
+				B2EA9C882B8622E8002250C1 /* Frameworks */,
+				B2EA9C892B8622E8002250C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2EA9C8D2B8622E8002250C1 /* PBXTargetDependency */,
+			);
+			name = ContactsAppUITests;
+			productName = ContactsAppUITests;
+			productReference = B2EA9C8B2B8622E8002250C1 /* ContactsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2EA9C692B8622E7002250C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					B2EA9C702B8622E7002250C1 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					B2EA9C802B8622E8002250C1 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = B2EA9C702B8622E7002250C1;
+					};
+					B2EA9C8A2B8622E8002250C1 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = B2EA9C702B8622E7002250C1;
+					};
+				};
+			};
+			buildConfigurationList = B2EA9C6C2B8622E7002250C1 /* Build configuration list for PBXProject "ContactsApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2EA9C682B8622E7002250C1;
+			packageReferences = (
+				B2EA9CA52B86403F002250C1 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
+			productRefGroup = B2EA9C722B8622E7002250C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2EA9C702B8622E7002250C1 /* ContactsApp */,
+				B2EA9C802B8622E8002250C1 /* ContactsAppTests */,
+				B2EA9C8A2B8622E8002250C1 /* ContactsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2EA9C6F2B8622E7002250C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EA9C7C2B8622E8002250C1 /* Preview Assets.xcassets in Resources */,
+				B2EA9C792B8622E8002250C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EA9C7F2B8622E8002250C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EA9C892B8622E8002250C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2EA9C6D2B8622E7002250C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EA9CAB2B867B93002250C1 /* ContactDetailFeature.swift in Sources */,
+				B2EA9C752B8622E7002250C1 /* ContactsApp.swift in Sources */,
+				B2EA9CA42B86401D002250C1 /* ContactsFeature.swift in Sources */,
+				B2EA9CA92B865B05002250C1 /* AddContactFeature.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EA9C7D2B8622E8002250C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EA9C872B8622E8002250C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EA9C902B8622E8002250C1 /* ContactsAppUITests.swift in Sources */,
+				B2EA9C922B8622E8002250C1 /* ContactsAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2EA9C832B8622E8002250C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2EA9C702B8622E7002250C1 /* ContactsApp */;
+			targetProxy = B2EA9C822B8622E8002250C1 /* PBXContainerItemProxy */;
+		};
+		B2EA9C8D2B8622E8002250C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2EA9C702B8622E7002250C1 /* ContactsApp */;
+			targetProxy = B2EA9C8C2B8622E8002250C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B2EA9C932B8622E8002250C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2EA9C942B8622E8002250C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2EA9C962B8622E8002250C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ContactsApp/Preview Content\"";
+				DEVELOPMENT_TEAM = Z729D9DEF5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.knapsoft.ContactsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2EA9C972B8622E8002250C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ContactsApp/Preview Content\"";
+				DEVELOPMENT_TEAM = Z729D9DEF5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.knapsoft.ContactsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B2EA9C992B8622E8002250C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z729D9DEF5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.knapsoft.ContactsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ContactsApp";
+			};
+			name = Debug;
+		};
+		B2EA9C9A2B8622E8002250C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z729D9DEF5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.knapsoft.ContactsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ContactsApp";
+			};
+			name = Release;
+		};
+		B2EA9C9C2B8622E8002250C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z729D9DEF5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.knapsoft.ContactsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ContactsApp;
+			};
+			name = Debug;
+		};
+		B2EA9C9D2B8622E8002250C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z729D9DEF5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.knapsoft.ContactsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ContactsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2EA9C6C2B8622E7002250C1 /* Build configuration list for PBXProject "ContactsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EA9C932B8622E8002250C1 /* Debug */,
+				B2EA9C942B8622E8002250C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2EA9C952B8622E8002250C1 /* Build configuration list for PBXNativeTarget "ContactsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EA9C962B8622E8002250C1 /* Debug */,
+				B2EA9C972B8622E8002250C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2EA9C982B8622E8002250C1 /* Build configuration list for PBXNativeTarget "ContactsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EA9C992B8622E8002250C1 /* Debug */,
+				B2EA9C9A2B8622E8002250C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2EA9C9B2B8622E8002250C1 /* Build configuration list for PBXNativeTarget "ContactsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EA9C9C2B8622E8002250C1 /* Debug */,
+				B2EA9C9D2B8622E8002250C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B2EA9CA52B86403F002250C1 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B2EA9CA62B86403F002250C1 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2EA9CA52B86403F002250C1 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B2EA9C692B8622E7002250C1 /* Project object */;
+}
