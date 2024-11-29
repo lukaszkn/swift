@@ -1,5 +1,5 @@
 // This image cache despite being thread safe is not efficiant.
-// If trying to get the same image while it's still downloading, the download will be triggered again which is unnecessery.
+// If trying to get the same image while it's still downloading, the download will trigger redundant downloads which is unnecessery.
 
 // https://medium.com/@chowdhuryrajib/exploring-thread-safe-arrays-in-swift-nslock-and-dispatch-barriers-with-fibonacci-caching-3ebe9593e1a3
 
